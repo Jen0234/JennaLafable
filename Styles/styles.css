@@ -5,6 +5,36 @@
   list-style: none;
 }
 
-body {
+:root {
+  --color-primary:#800000;
+  --color-secondary:#f1c6c4 ;
+  --color-white: #FFFFFF;
+  --color-black: #0000 ;
+  --color-cream: #f0ece2;
+  --color-natural: #e3ded0;
+  --color-burgundy: #602234;
+  --color-blue:#002147;
+  -color-grey0: #dbe1e8;
+  -color-grey-1: #6c7983;
+  --color-grey-2:#2a2e35;
+  ---br-sm-2: 14px;
+}
+
+h1, h2, h3, h4 {
   font-family: "Caprasimo", cursive;
+}
+
+body {
+  background-color: var(--color-primary);
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-white);
+  transition: all 0.4s ease-in-out;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
 }/*# sourceMappingURL=styles.css.map */
